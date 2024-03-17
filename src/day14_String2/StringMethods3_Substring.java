@@ -17,11 +17,11 @@ public class StringMethods3_Substring {
         System.out.println("-------------------------------------------");
 
         String word2= "Python C# Ruby";
-        String s1 = word2.substring(0,word2.indexOf(" "));  //"Java"
+        String s1 = word2.substring(0,word2.indexOf(" "));  //"Python"
         System.out.println("s1 = " + s1);
-        String s2 = word2.substring(word2.indexOf(" ")+1,word2.lastIndexOf(" "));  //"programming"
+        String s2 = word2.substring(word2.indexOf(" ")+1,word2.lastIndexOf(" "));  //"C#"
         System.out.println("s2 = " + s2);
-        String s3 = word2.substring(word2.lastIndexOf(" ")+1);  //"Language"
+        String s3 = word2.substring(word2.lastIndexOf(" ")+1);  //"Ruby"
         System.out.println("s3 = " + s3);
 
 

@@ -10,7 +10,7 @@ public class DigitsLettersSpecialChars {
         String specialChars =""; //!@#$%
 
         for (int i =0;i<str.length();i++) {
-            char ch = str.charAt(i); //ch : each charactyer that we have in str
+            char ch = str.charAt(i); //ch : each character that we have in str
 
             if (ch >= '0' && ch <= '9') {
                 digits += ch;
